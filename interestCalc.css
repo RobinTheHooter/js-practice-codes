@@ -1,0 +1,46 @@
+body {
+  background-color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+}
+
+.maindiv {
+  margin-left: auto;
+  margin-right: auto;
+  background-color: white;
+  color: black;
+  width: 300px;
+  padding: 20px;
+  border-radius: 25px;
+  text-align: center;
+}
+
+.maindiv h1 {
+  margin: 0;
+  font-size: 40px;
+  color: grey;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.input label {
+  font-size: 30px;
+}
+
+.input input {
+  margin: 0 0 20px 0;
+  height: 30px;
+  text-align: center;
+  font-size: 30px;
+}
+
+#submitBtn {
+  padding: 20px;
+  font-size: 20px;
+}
+
+#result {
+  font-size: 30px;
+  padding: 0;
+  /* margin: 0; */
+  margin-bottom: 30px;
+}

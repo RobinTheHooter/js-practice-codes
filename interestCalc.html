@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="interestCalc.css" />
+    <title>Simple Interest Calculator</title>
+  </head>
+  <body>
+    <div class="maindiv">
+      <h1>Interest Calculator</h1>
+      <div class="input">
+        <br />
+        <label for="principal">Amount: </label>
+        <input
+          type="text"
+          id="principal"
+          name="principal"
+          style="width: 100px"
+        />
+        <br />
+        <br />
+        <label for="interest">Rate </label>
+        <input
+          type="range"
+          id="rate"
+          name="rate"
+          min="1"
+          max="20"
+          value="10.25"
+          step="0.25"
+          onchange="updateRate()"
+        />
+        <span id="rate_val">10.25</span>%
+        <br />
+        <br />
+        <label for="years">No. of Years </label>
+        <input type="text" id="years" name="years" style="width: 100px" />
+      </div>
+
+      <button id="submitBtn" type="submit" onclick="compute()">
+        Compute Interest
+      </button>
+
+      <p id="result">Interest: 0</p>
+
+      &#169; This Calculator belongs to Jatin Chandra Choudhary
+    </div>
+
+    <script src="interestCalc.js"></script>
+  </body>
+</html>
