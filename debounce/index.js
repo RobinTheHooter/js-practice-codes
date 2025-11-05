@@ -1,3 +1,6 @@
+// Implement a debounce function that limits the rate at which a function can fire.
+// The debounce function should take two arguments: the function to be debounced and the delay time in milliseconds.
+
 const debounce = (func, delay) => {
   let debounceTimer;
   return function () {
