@@ -17,3 +17,7 @@ var searchInsert = function (nums, target) {
   // If not found, 'start' is naturally the insertion point
   return start;
 };
+
+let arr = [1,2,3,4,5,6,7,8,9,10]
+
+console.log(searchInsert(arr,9))
